@@ -6,7 +6,7 @@
 		 <div class="row">				
 				<div class="col-md-4">
 					<figure>
-					<a href = "../images/mexico_crusade.jpg" data-lightbox="gallery" data-title = "Mexico Crusade">
+					<a href = "../images/mexico_crusade.JPG" data-lightbox="gallery" data-title = "Mexico Crusade">
 					<img class="img-responsive thumbnail" src = "../images/mexico_crusadeTHMB.jpg" alt="Crusade in Mexico"/></a>
 					<figcaption>Mexico Crusade</figcaption>
 					</figure>
