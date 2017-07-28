@@ -1,10 +1,10 @@
-      <section id="verse" name="verse">
+<section id="verse" name="verse" class = "hidden-xs">
     <!--EDUCATION DESCRIPTION -->
-    <div class="container">
-        <div class="row">
-        
-            <blockquote class = "center"> For this is what the Lord has commanded us: “ ‘I have made you a light for the Gentiles, that you may bring salvation to the ends of the earth.’ ” ~<cite>Acts 13:47</cite></blockquote>
-        </div><!--/.row -->
-        <br>
-    </div><!--/.container -->
-</section><!--end resume -->
+     <div class="container">
+        	<div class="row">        
+            <blockquote class = "center"> 
+            Declare his glory among the nations, his marvelous deeds among all people" ~<cite>Psalm 96:3</cite></blockquote>
+        	</div><!--/.row -->
+        	<br>
+    	</div><!--/.container -->
+</section><!--end verse -->

@@ -5,9 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <!--Set Viewport for Responsiveness-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="pragma" content="no-cache" />
+        <meta http-equiv="pragma" content="no-cache"/>
         <title>@yield('title')</title>
-        <meta name="description" content="Resume Portfolio for Jana Nash-Siegle, Web Laravel|PHP Developer">        
+        <meta name="description" content="Resume Portfolio for Jana Nash-Siegle, Web Laravel|PHP Developer">     
         <meta name = "author" content = "Jana Nash-Siegle">
         <link rel="canonical" href="http://jlsdesk.com">
         <!--favicon-->
@@ -51,33 +51,13 @@
               'csrfToken' => csrf_token(),
               ]) !!};
             </script>
-        <!--Chart Script must be in head to work -->
-      <script type = "text/javascript" src = "{{ asset('/js/Chart.js') }}"></script>    
 </head>
 <body data-spy="scroll" data-offset="0" data-target="#nav"> 
-@include('includes.analyticstracking') 
-<!--Begin Landing Page --> 
- {{-- @include('includes.header') --}}
-  
-  <div id="headerwrap">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-lg-12">
-          <h1>Missions in India</h1>
-          <h2>Support the Mission</h2>
-          <a href = "#"><button>Give Now</button></a>
-        </div><!--end ofcol-lg-12 -->
-      </div><!--end of row -->
-    </div><!--end of container -->
-  </div><!--end of #headerwrap -->
-
+@include('includes.analyticstracking')
 <main>
 @yield('content')
-@yield('content1')
 </main>
-
 @include('includes.footer')
-
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 
@@ -95,10 +75,10 @@
      <script src = "https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" async = "async" defer = "defer"></script>
     
     <!--my javascripts | -->
-    <script type = "text/javascript" src = "{{ asset('/js/app.js') }}"></script>
-    <script type = "text/javascript" src = "{{ asset('/js/Chart.js') }}"></script>
-    <script type = "text/javascript" src = "{{ asset('/js/smoothscroll.js') }}"></script>
+    <script type = "text/javascript" src = "{{ asset('/js/app.js') }}"></script>    
+    {{-- <script type = "text/javascript" src = "{{ asset('/js/smoothscroll.js') }}"></script> --}}
     
-   
+    <!-- LIGHTBOX -->
+    <script type = "text/javascript" src = "{{ asset('/js/lightbox.min.js')  }}" async = "async" defer = "defer"></script> 
 </body>
 </html>
